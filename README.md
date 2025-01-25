@@ -25,7 +25,7 @@ library(splines)
 
 # setting
 p <- 50; N <- 200; p1 <- (1/2)*p; p2 <- p-p1
-L <- 13; LL <- 100; L_bar <- 6
+L <- 13; LL <- 100; L_bar <- 6; K <- 4
 Sig <- toeplitz((1/2)^seq(0, p-1))
 
 # generate x, z, w, and y
