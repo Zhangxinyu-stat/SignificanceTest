@@ -16,7 +16,7 @@ R code for "Model-free variable importance testing with machine learning methods
 - `L`: The number of fixed transformation functions for predictor `w`.
 - `LL`: The large number of transformation functions for predictor `w`.
 - `L_bar`: The number of the selected transformation functions for predictor `w`.
-- `k`: The number of transformation functions for response `y`.
+- `K`: The number of transformation functions for response `y`.
 ## Examples
 ```
 library(MASS)
