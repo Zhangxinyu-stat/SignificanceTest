@@ -27,6 +27,8 @@ library(splines)
 p <- 50; N <- 200; p1 <- (1/2)*p; p2 <- p-p1
 L <- 13; LL <- 100; L_bar <- 6; K <- 4
 Sig <- toeplitz((1/2)^seq(0, p-1))
+beta <- c(rep(1/sqrt(2),2), rep(0, p1-2))*sqrt(2)
+theta <- c(rep(1/sqrt(3),3), rep(0, p2-3))/sqrt(2)
 
 # generate x, z, w, and y
 w <- mvrnorm(N, mu=rep(0, p), Sigma=Sig)
